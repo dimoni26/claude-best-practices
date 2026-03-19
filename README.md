@@ -1,7 +1,7 @@
 # claude-code-best-practice
 la práctica hace al claude perfecto
 
-![actualizado con Claude Code](https://img.shields.io/badge/actualizado_con_Claude_Code-v2.1.79%20(Mar%2019%2C%202026%207%3A25%20PM%20PKT)-white?style=flat&labelColor=555) <a href="https://github.com/dimoni26/claude-best-practices/stargazers"><img src="https://img.shields.io/github/stars/shanraisshan/claude-code-best-practice?style=flat&label=%E2%98%85&labelColor=555&color=white" alt="GitHub Stars"></a><br>
+![actualizado con Claude Code](https://img.shields.io/badge/actualizado_con_Claude_Code-v2.1.79%20(Mar%2019%2C%202026%207%3A25%20PM%20PKT)-white?style=flat&labelColor=555) <a href="https://github.com/dimoni26/claude-best-practices/stargazers"><img src="https://img.shields.io/github/stars/dimoni26/claude-best-practices?style=flat&label=%E2%98%85&labelColor=555&color=white" alt="GitHub Stars"></a><br>
 [![Mejor Práctica](!/tags/best-practice.svg)](best-practice/) [![Implementado](!/tags/implemented.svg)](implementation/) [![Flujo de Orquestación](!/tags/orchestration-workflow.svg)](orchestration-workflow/orchestration-workflow.md) [![Boris](!/tags/boris-cherny.svg)](#-tips-and-tricks) ![Haz clic en estas insignias de abajo para ver las fuentes reales](!/tags/click-badges.svg)<br>
 <img src="a.svg" height="14"> = Agentes · <img src="c.svg" height="14"> = Comandos · <img src="s.svg" height="14"> = Habilidades (Skills)<br>
 [![Repositorio #1 en Tendencias de GitHub del Día](!/root/github-trending-day.svg)](https://github.com/trending)
