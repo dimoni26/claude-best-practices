@@ -1,7 +1,7 @@
 # claude-code-best-practice
 la práctica hace al claude perfecto
 
-![actualizado con Claude Code](https://img.shields.io/badge/actualizado_con_Claude_Code-v2.1.79%20(Mar%2019%2C%202026%207%3A25%20PM%20PKT)-white?style=flat&labelColor=555) <a href="https://github.com/shanraisshan/claude-code-best-practice/stargazers"><img src="https://img.shields.io/github/stars/shanraisshan/claude-code-best-practice?style=flat&label=%E2%98%85&labelColor=555&color=white" alt="GitHub Stars"></a><br>
+![actualizado con Claude Code](https://img.shields.io/badge/actualizado_con_Claude_Code-v2.1.79%20(Mar%2019%2C%202026%207%3A25%20PM%20PKT)-white?style=flat&labelColor=555) <a href="https://github.com/dimoni26/claude-best-practices/stargazers"><img src="https://img.shields.io/github/stars/shanraisshan/claude-code-best-practice?style=flat&label=%E2%98%85&labelColor=555&color=white" alt="GitHub Stars"></a><br>
 [![Mejor Práctica](!/tags/best-practice.svg)](best-practice/) [![Implementado](!/tags/implemented.svg)](implementation/) [![Flujo de Orquestación](!/tags/orchestration-workflow.svg)](orchestration-workflow/orchestration-workflow.md) [![Boris](!/tags/boris-cherny.svg)](#-tips-and-tricks) ![Haz clic en estas insignias de abajo para ver las fuentes reales](!/tags/click-badges.svg)<br>
 <img src="a.svg" height="14"> = Agentes · <img src="c.svg" height="14"> = Comandos · <img src="s.svg" height="14"> = Habilidades (Skills)<br>
 [![Repositorio #1 en Tendencias de GitHub del Día](!/root/github-trending-day.svg)](https://github.com/trending)
@@ -24,15 +24,15 @@ la práctica hace al claude perfecto
 | <img src="c.svg" height="14"> [**Comandos**](https://code.claude.com/docs/en/slash-commands) | `.claude/commands/<nombre>.md` | [![Mejor Práctica](!/tags/best-practice.svg)](best-practice/claude-commands.md) [![Implementado](!/tags/implemented.svg)](implementation/claude-commands-implementation.md) Conocimiento inyectado en el contexto existente — plantillas de prompts simples invocadas por el usuario para la orquestación de flujos de trabajo |
 | <img src="s.svg" height="14"> [**Habilidades (Skills)**](https://code.claude.com/docs/en/skills) | `.claude/skills/<nombre>/SKILL.md` | [![Mejor Práctica](!/tags/best-practice.svg)](best-practice/claude-skills.md) [![Implementado](!/tags/implemented.svg)](implementation/claude-skills-implementation.md) Conocimiento inyectado en el contexto existente — configurable, precargable, autodescubrible, con bifurcación de contexto y divulgación progresiva · [Habilidades Oficiales](https://github.com/anthropics/skills/tree/main/skills) |
 | [**Flujos de trabajo**](https://code.claude.com/docs/en/common-workflows) | [`.claude/commands/weather-orchestrator.md`](.claude/commands/weather-orchestrator.md) | [![Flujo de Orquestación](!/tags/orchestration-workflow.svg)](orchestration-workflow/orchestration-workflow.md) |
-| [**Hooks (Ganchos)**](https://code.claude.com/docs/en/hooks) | `.claude/hooks/` | [![Mejor Práctica](!/tags/best-practice.svg)](https://github.com/shanraisshan/claude-code-hooks) [![Implementado](!/tags/implemented.svg)](https://github.com/shanraisshan/claude-code-hooks) Controladores definidos por el usuario (scripts, HTTP, prompts, agentes) que se ejecutan fuera del bucle de agentes en eventos específicos · [Guía](https://code.claude.com/docs/en/hooks-guide) |
+| [**Hooks (Ganchos)**](https://code.claude.com/docs/en/hooks) | `.claude/hooks/` | [![Mejor Práctica](!/tags/best-practice.svg)](https://github.com/dimoni26/claude-code-hooks) [![Implementado](!/tags/implemented.svg)](https://github.com/dimoni26/claude-code-hooks) Controladores definidos por el usuario (scripts, HTTP, prompts, agentes) que se ejecutan fuera del bucle de agentes en eventos específicos · [Guía](https://code.claude.com/docs/en/hooks-guide) |
 | [**Servidores MCP**](https://code.claude.com/docs/en/mcp) | `.claude/settings.json`, `.mcp.json` | [![Mejor Práctica](!/tags/best-practice.svg)](best-practice/claude-mcp.md) [![Implementado](!/tags/implemented.svg)](.mcp.json) Conexiones del Protocolo de Contexto del Modelo a herramientas externas, bases de datos y APIs |
 | [**Plugins**](https://code.claude.com/docs/en/plugins) | paquetes distribuibles | Paquetes de habilidades, subagentes, hooks y servidores MCP · [Marketplaces](https://code.claude.com/docs/en/discover-plugins) |
 | [**Ajustes**](https://code.claude.com/docs/en/settings) | `.claude/settings.json` | [![Mejor Práctica](!/tags/best-practice.svg)](best-practice/claude-settings.md) [![Implementado](!/tags/implemented.svg)](.claude/settings.json) Sistema de configuración jerárquico · [Permisos](https://code.claude.com/docs/en/permissions) · [Configuración del Modelo](https://code.claude.com/docs/en/model-config) · [Estilos de Salida](https://code.claude.com/docs/en/output-styles) · [Sandboxing](https://code.claude.com/docs/en/sandboxing) · [Atajos de Teclado](https://code.claude.com/docs/en/keybindings) · [Modo Rápido](https://code.claude.com/docs/en/fast-mode) |
-| [**Línea de Estado**](https://code.claude.com/docs/en/statusline) | `.claude/settings.json` | [![Mejor Práctica](!/tags/best-practice.svg)](https://github.com/shanraisshan/claude-code-status-line) [![Implementado](!/tags/implemented.svg)](.claude/settings.json) Barra de estado personalizable que muestra el uso del contexto, el modelo, el costo y la información de la sesión |
+| [**Línea de Estado**](https://code.claude.com/docs/en/statusline) | `.claude/settings.json` | [![Mejor Práctica](!/tags/best-practice.svg)](https://github.com/dimoni26/claude-code-status-line) [![Implementado](!/tags/implemented.svg)](.claude/settings.json) Barra de estado personalizable que muestra el uso del contexto, el modelo, el costo y la información de la sesión |
 | [**Memoria**](https://code.claude.com/docs/en/memory) | `CLAUDE.md`, `.claude/rules/`, `~/.claude/rules/`, `~/.claude/projects/<proyecto>/memory/` | [![Mejor Práctica](!/tags/best-practice.svg)](best-practice/claude-memory.md) [![Implementado](!/tags/implemented.svg)](CLAUDE.md) Contexto persistente a través de archivos CLAUDE.md e importaciones `@path` · [Memoria Automática](https://code.claude.com/docs/en/memory) · [Reglas](https://code.claude.com/docs/en/memory#organize-rules-with-clauderules) |
 | [**Puntos de Control (Checkpointing)**](https://code.claude.com/docs/en/checkpointing) | automático (basado en git) | Seguimiento automático de ediciones de archivos con rebobinado (`Esc Esc` o `/rewind`) y resumen específico |
 | [**Flags de Inicio de CLI**](https://code.claude.com/docs/en/cli-reference) | `claude [flags]` | [![Mejor Práctica](!/tags/best-practice.svg)](best-practice/claude-cli-startup-flags.md) Flags de línea de comandos, subcomandos y variables de entorno para lanzar Claude Code · [Modo Interactivo](https://code.claude.com/docs/en/interactive-mode) |
-| **Términos de IA** | | [![Mejor Práctica](!/tags/best-practice.svg)](https://github.com/shanraisshan/claude-code-codex-cursor-gemini/blob/main/reports/ai-terms.md) Ingeniería Agéntica · Ingeniería de Contexto · Vibe Coding |
+| **Términos de IA** | | [![Mejor Práctica](!/tags/best-practice.svg)](https://github.com/dimoni26/claude-best-practices/blob/main/reports/ai-terms.md) Ingeniería Agéntica · Ingeniería de Contexto · Vibe Coding |
 | [**Mejores Prácticas**](https://code.claude.com/docs/en/best-practices) | | Mejores prácticas oficiales · [Ingeniería de Prompts](https://github.com/anthropics/prompt-eng-interactive-tutorial) · [Extender Claude Code](https://code.claude.com/docs/en/features-overview) |
 
 ### 🔥 Destacado (Hot)
@@ -46,7 +46,7 @@ la práctica hace al claude perfecto
 | [**Equipos de Agentes**](https://code.claude.com/docs/en/agent-teams) ![beta](!/tags/beta.svg) | integrado (var de entorno) | [![Mejor Práctica](!/tags/best-practice.svg)](https://x.com/bcherny/status/2019472394696683904) [![Implementado](!/tags/implemented.svg)](implementation/claude-agent-teams-implementation.md) Múltiples agentes trabajando en paralelo en la misma base de código con coordinación de tareas compartida |
 | [**Control Remoto**](https://code.claude.com/docs/en/remote-control) | `/remote-control`, `/rc` | [![Mejor Práctica](!/tags/best-practice.svg)](https://x.com/noahzweben/status/2032533699116355819) Continúa sesiones locales desde cualquier dispositivo — teléfono, tablet o navegador · [Modo Headless](https://code.claude.com/docs/en/headless) |
 | [**Git Worktrees**](https://code.claude.com/docs/en/common-workflows) | integrado | [![Mejor Práctica](!/tags/best-practice.svg)](https://x.com/bcherny/status/2025007393290272904) Ramas de git aisladas para desarrollo paralelo — cada agente obtiene su propia copia de trabajo |
-| [**Bucle Ralph Wiggum**](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum) | plugin | [![Mejor Práctica](!/tags/best-practice.svg)](https://github.com/ghuntley/how-to-ralph-wiggum) [![Implementado](!/tags/implemented.svg)](https://github.com/shanraisshan/novel-llm-26) Bucle de desarrollo autónomo para tareas de larga duración — itera hasta completar |
+| [**Bucle Ralph Wiggum**](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum) | plugin | [![Mejor Práctica](!/tags/best-practice.svg)](https://github.com/ghuntley/how-to-ralph-wiggum) [![Implementado](!/tags/implemented.svg)](https://github.com/dimoni26/novel-llm-26) Bucle de desarrollo autónomo para tareas de larga duración — itera hasta completar |
 
 <p align="center">
   <img src="!/claude-jumping.svg" alt="divisor de sección" width="60" height="50">
@@ -95,7 +95,7 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 ### Otros
 - [Flujo de trabajo Cross-Model (Claude Code + Codex)](development-workflows/cross-model-workflow/cross-model-workflow.md) [![Implementado](!/tags/implemented.svg)](development-workflows/cross-model-workflow/cross-model-workflow.md)
 - [RPI](development-workflows/rpi/rpi-workflow.md) [![Implementado](!/tags/implemented.svg)](development-workflows/rpi/rpi-workflow.md)
-- [Bucle Ralph Wiggum](https://www.youtube.com/watch?v=eAtvoGlpeRU) [![Implementado](!/tags/implemented.svg)](https://github.com/shanraisshan/novel-llm-26)
+- [Bucle Ralph Wiggum](https://www.youtube.com/watch?v=eAtvoGlpeRU) [![Implementado](!/tags/implemented.svg)](https://github.com/dimoni26/novel-llm-26)
 - [Flujo de trabajo de Andrej Karpathy (Miembro Fundador, OpenAI)](https://x.com/karpathy/status/2015883857489522876)
 - [Flujo de trabajo de Peter Steinberger (Creador de OpenClaw)](https://youtu.be/8lF7HmQ_RgY?t=2582)
 - Flujo de trabajo de Boris Cherny (Creador de Claude Code) — [13 Consejos](tips/claude-boris-13-tips-03-jan-26.md) · [10 Consejos](tips/claude-boris-10-tips-01-feb-26.md) · [12 Consejos](tips/claude-boris-12-tips-12-feb-26.md) [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny)
@@ -159,7 +159,7 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 - usa mucho los diagramas ASCII para entender tu arquitectura [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny/status/2017742759218794768)
 - [equipos de agentes con tmux](https://code.claude.com/docs/en/agent-teams) y [git worktrees](https://x.com/bcherny/status/2025007393290272904) para desarrollo paralelo
 - usa [/loop](https://code.claude.com/docs/en/scheduled-tasks) para monitoreo recurrente — sondea despliegues, supervisa PRs, revisa compilaciones (funciona hasta 3 días)
-- usa el [plugin Ralph Wiggum](https://github.com/shanraisshan/novel-llm-26) para tareas autónomas de larga duración [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny/status/2007179858435281082)
+- usa el [plugin Ralph Wiggum](https://github.com/dimoni26/novel-llm-26) para tareas autónomas de larga duración [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny/status/2007179858435281082)
 - [/permissions](https://code.claude.com/docs/en/permissions) con sintaxis de comodín (Bash(npm run *), Edit(/docs/**)) en lugar de dangerously-skip-permissions [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny/status/2007179854077407667)
 - [/sandbox](https://code.claude.com/docs/en/sandboxing) para reducir las solicitudes de permisos con aislamiento de archivos y red — reducción del 84% internamente [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny/status/2021700506465579443) [![Cat](!/tags/cat-wu.svg)](https://creatoreconomy.so/p/inside-claude-code-how-an-ai-native-actually-works-cat-wu)
 - etiqueta a [@claude](https://github.com/apps/claude) en el PR de un compañero para autogenerar reglas de lint para comentarios de revisión recurrentes — automatízate fuera de la revisión de código 🚫👶 [![Boris](!/tags/boris-cherny.svg)](https://youtu.be/julbw1JuAz0?t=2715) [![Video](!/tags/video.svg)](https://youtu.be/julbw1JuAz0?t=2715)
@@ -173,14 +173,14 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 - pide siempre a Claude que ejecute la terminal (de la que quieres ver los logs) como una tarea en segundo plano para una mejor depuración
 - [/doctor](https://code.claude.com/docs/en/cli-reference) para diagnosticar problemas de instalación, autenticación y configuración
 - el error durante la compactación se puede resolver usando [/model](https://code.claude.com/docs/en/model-config) para seleccionar un modelo de 1M de tokens, luego ejecutando [/compact](https://code.claude.com/docs/en/interactive-mode)
-- usa un [cross-model](development-workflows/cross-model-workflow/cross-model-workflow.md) para QA — ej. [Codex](https://github.com/shanraisshan/codex-cli-best-practice) para la revisión del plan y la implementación
+- usa un [cross-model](development-workflows/cross-model-workflow/cross-model-workflow.md) para QA — ej. [Codex](https://github.com/dimoni26/codex-cli-best-practice) para la revisión del plan y la implementación
 - la búsqueda agéntica (glob + grep) vence a RAG — Claude Code probó y descartó las bases de datos vectoriales porque el código se desincroniza y los permisos son complejos [![Boris](!/tags/boris-cherny.svg)](https://youtu.be/julbw1JuAz0?t=3095) [![Video](!/tags/video.svg)](https://youtu.be/julbw1JuAz0?t=3095)
 
 ■ **Utilidades (5)**
 - terminales [iTerm](https://iterm2.com/)/[Ghostty](https://ghostty.org/) [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny/status/2017742753971769626)/[tmux](https://github.com/tmux/tmux) en lugar de IDE ([VS Code](https://code.visualstudio.com/)/[Cursor](https://www.cursor.com/))
 - [Wispr Flow](https://wisprflow.ai) para prompts de voz (10x productividad)
-- [claude-code-hooks](https://github.com/shanraisshan/claude-code-hooks) para feedback de Claude
-- [línea de estado](https://github.com/shanraisshan/claude-code-status-line) para conciencia del contexto y compactación rápida [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny/status/2021700784019452195)
+- [claude-code-hooks](https://github.com/dimoni26/claude-code-hooks) para feedback de Claude
+- [línea de estado](https://github.com/dimoni26/claude-code-status-line) para conciencia del contexto y compactación rápida [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny/status/2021700784019452195)
 - explora las características de [settings.json](best-practice/claude-settings.md) como [Directorio de Planes](best-practice/claude-settings.md#plans-directory), [Verbos del Spinner](best-practice/claude-settings.md#display--ux) para una experiencia personalizada [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny/status/2021701145023197516)
 
 ■ **Diario (3)**
@@ -234,7 +234,7 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 <a id="billion-dollar-questions"></a>
 ![Preguntas de Mil Millones de Dólares](!/tags/billion-dollar-questions.svg)
 
-*Si tienes respuestas, házmelo saber en shanraisshan@gmail.com*
+*Si tienes respuestas, házmelo saber en dimoni26@example.com*
 
 **Memoria e Instrucciones (4)**
 
@@ -301,7 +301,7 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 
 ## Otros Repositorios
 
-<a href="https://github.com/shanraisshan/claude-code-hooks"><img src="!/claude-speaking.svg" alt="Claude Code Hooks" width="40" height="40" align="center"></a> <a href="https://github.com/shanraisshan/claude-code-hooks"><strong>claude-code-hooks</strong></a> · <a href="https://github.com/shanraisshan/codex-cli-best-practice"><img src="!/codex-jumping.svg" alt="Codex CLI" width="40" height="40" align="center"></a> <a href="https://github.com/shanraisshan/codex-cli-best-practice"><strong>codex-cli-best-practice</strong></a> · <a href="https://github.com/shanraisshan/codex-cli-hooks"><img src="!/codex-speaking.svg" alt="Codex CLI Hooks" width="40" height="40" align="center"></a> <a href="https://github.com/shanraisshan/codex-cli-hooks"><strong>codex-cli-hooks</strong></a>
+<a href="https://github.com/dimoni26/claude-code-hooks"><img src="!/claude-speaking.svg" alt="Claude Code Hooks" width="40" height="40" align="center"></a> <a href="https://github.com/dimoni26/claude-code-hooks"><strong>claude-code-hooks</strong></a> · <a href="https://github.com/dimoni26/codex-cli-best-practice"><img src="!/codex-jumping.svg" alt="Codex CLI" width="40" height="40" align="center"></a> <a href="https://github.com/dimoni26/codex-cli-best-practice"><strong>codex-cli-best-practice</strong></a> · <a href="https://github_com/dimoni26/codex-cli-hooks"><img src="!/codex-speaking.svg" alt="Codex CLI Hooks" width="40" height="40" align="center"></a> <a href="https://github_com/dimoni26/codex-cli-hooks"><strong>codex-cli-hooks</strong></a>
 
 ## Desarrollado por
 
