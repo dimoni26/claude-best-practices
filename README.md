@@ -1,18 +1,9 @@
-[# claude-code-best-practice
-la práctica hace al claude perfecto
+La práctica hace al claude perfecto
 
-![actualizado con Claude Code](https://img.shields.io/badge/actualizado_con_Claude_Code-v2.1.79%20(Mar%2019%2C%202026%207%3A25%20PM%20PKT)-white?style=flat&labelColor=555) <a href="https://github.com/dimoni26/claude-best-practices/stargazers"><img src="https://img.shields.io/github/stars/dimoni26/claude-best-practices?style=flat&label=%E2%98%85&labelColor=555&color=white" alt="GitHub Stars"></a><br>
 [![Mejor Práctica](!/tags/best-practice.svg)](best-practice/) [![Implementado](!/tags/implemented.svg)](implementation/) [![Flujo de Orquestación](!/tags/orchestration-workflow.svg)](orchestration-workflow/orchestration-workflow.md) [![Boris](!/tags/boris-cherny.svg)](#-tips-and-tricks) ![Haz clic en estas insignias de abajo para ver las fuentes reales](!/tags/click-badges.svg)<br>
-<img src="a.svg" height="14"> = Agentes · <img src="c.svg" height="14"> = Comandos · <img src="s.svg" height="14"> = Habilidades (Skills)<br>
-[![Repositorio #1 en Tendencias de GitHub del Día](!/root/github-trending-day.svg)](https://github.com/trending)
 
 <p align="center">
   <img src="!/claude-jumping.svg" alt="Mascota de Claude Code saltando" width="120" height="100">
-</p>
-
-<p align="center">
-  <img src="!/root/boris-slider.gif" alt="Boris Cherny en Claude Code" width="600"><br>
-  Boris Cherny en X (<a href="https://x.com/bcherny/status/2007179832300581177">tweet 1</a> · <a href="https://x.com/bcherny/status/2017742741636321619">tweet 2</a> · <a href="https://x.com/bcherny/status/2021699851499798911">tweet 3</a>)
 </p>
 
 
@@ -320,4 +311,3 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 [![Embajador de la Comunidad Claude](!/tags/claude-community-ambassador.svg)](https://claude.com/community/ambassadors)
 [![Arquitecto Certificado de Claude](!/tags/claude-certified-architect.svg)](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request)
 [![Academia Anthropic](!/tags/anthropic-academy.svg)](https://anthropic.skilljar.com/)
-](https://code.claude.com/docs/en/best-practices)
