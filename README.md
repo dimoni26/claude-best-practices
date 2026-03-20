@@ -1,4 +1,4 @@
-# claude-code-best-practice
+[# claude-code-best-practice
 la práctica hace al claude perfecto
 
 ![actualizado con Claude Code](https://img.shields.io/badge/actualizado_con_Claude_Code-v2.1.79%20(Mar%2019%2C%202026%207%3A25%20PM%20PKT)-white?style=flat&labelColor=555) <a href="https://github.com/dimoni26/claude-best-practices/stargazers"><img src="https://img.shields.io/github/stars/dimoni26/claude-best-practices?style=flat&label=%E2%98%85&labelColor=555&color=white" alt="GitHub Stars"></a><br>
@@ -320,3 +320,4 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 [![Embajador de la Comunidad Claude](!/tags/claude-community-ambassador.svg)](https://claude.com/community/ambassadors)
 [![Arquitecto Certificado de Claude](!/tags/claude-certified-architect.svg)](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request)
 [![Academia Anthropic](!/tags/anthropic-academy.svg)](https://anthropic.skilljar.com/)
+](https://code.claude.com/docs/en/best-practices)
