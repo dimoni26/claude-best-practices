@@ -89,6 +89,7 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 - [Bucle Ralph Wiggum](https://www.youtube.com/watch?v=eAtvoGlpeRU) [![Implementado](!/tags/implemented.svg)](https://github.com/dimoni26/novel-llm-26)
 - [Flujo de trabajo de Andrej Karpathy (Miembro Fundador, OpenAI)](https://x.com/karpathy/status/2015883857489522876)
 - [Flujo de trabajo de Peter Steinberger (Creador de OpenClaw)](https://youtu.be/8lF7HmQ_RgY?t=2582)
+- Flujo de trabajo de Boris Cherny (Creador de Claude Code) — [13 Consejos](tips/claude-boris-13-tips-03-jan-26.md) · [10 Consejos](tips/claude-boris-10-tips-01-feb-26.md) · [12 Consejos](tips/claude-boris-12-tips-12-feb-26.md) [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny)
 
 <p align="center">
   <img src="!/claude-jumping.svg" alt="divisor de sección" width="60" height="50">
@@ -245,61 +246,3 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 1. ¿Debería cada característica en tu repositorio tener una especificación como un archivo markdown?
 2. ¿Con qué frecuencia necesitas actualizar las especificaciones para que no queden obsoletas cuando se implementa una nueva característica?
 3. Al implementar una nueva característica, ¿cómo manejas el efecto dominó en las especificaciones de otras características?
-
-<p align="center">
-  <img src="!/claude-jumping.svg" alt="divisor de sección" width="60" height="50">
-</p>
-
-## INFORMES (REPORTS)
-
-<p align="center">
-  <a href="reports/claude-agent-sdk-vs-cli-system-prompts.md"><img src="https://img.shields.io/badge/Agent_SDK_vs_CLI-555?style=for-the-badge" alt="Agent SDK vs CLI"></a>
-  <a href="reports/claude-in-chrome-v-chrome-devtools-mcp.md"><img src="https://img.shields.io/badge/Browser_Automation_MCP-555?style=for-the-badge" alt="Browser Automation MCP"></a>
-  <a href="reports/claude-global-vs-project-settings.md"><img src="https://img.shields.io/badge/Global_vs_Project_Settings-555?style=for-the-badge" alt="Global vs Project Settings"></a>
-  <a href="reports/claude-skills-for-larger-mono-repos.md"><img src="https://img.shields.io/badge/Skills_in_Monorepos-555?style=for-the-badge" alt="Skills in Monorepos"></a>
-  <br>
-  <a href="reports/claude-agent-memory.md"><img src="https://img.shields.io/badge/Agent_Memory-555?style=for-the-badge" alt="Agent Memory"></a>
-  <a href="reports/claude-advanced-tool-use.md"><img src="https://img.shields.io/badge/Advanced_Tool_Use-555?style=for-the-badge" alt="Advanced Tool Use"></a>
-  <a href="reports/claude-usage-and-rate-limits.md"><img src="https://img.shields.io/badge/Usage_&_Rate_Limits-555?style=for-the-badge" alt="Usage & Rate Limits"></a>
-  <a href="reports/claude-agent-command-skill.md"><img src="https://img.shields.io/badge/Agents_vs_Commands_vs_Skills-555?style=for-the-badge" alt="Agents vs Commands vs Skills"></a>
-  <br>
-  <a href="reports/llm-day-to-day-degradation.md"><img src="https://img.shields.io/badge/LLM_Degradation-555?style=for-the-badge" alt="LLM Degradation"></a>
-</p>
-
-<p align="center">
-  <img src="!/claude-jumping.svg" alt="divisor de sección" width="60" height="50">
-</p>
-
-![Cómo usar](!/tags/how-to-use.svg)
-
-```
-1. Lee el repositorio como un curso, aprende qué son los comandos, agentes, habilidades y hooks antes de intentar usarlos.
-2. Clona este repositorio y juega con los ejemplos, prueba /weather-orchestrator, escucha los sonidos de los hooks, ejecuta equipos de agentes, para que puedas ver cómo funcionan las cosas realmente.
-3. Ve a tu propio proyecto y pide a Claude que sugiera qué mejores prácticas de este repositorio deberías añadir, dale este repositorio como referencia para que sepa qué es posible.
-```
-
-<p align="center">
-  <img src="!/claude-jumping.svg" alt="divisor de sección" width="60" height="50">
-</p>
-
-## Otros Repositorios
-
-<a href="https://github.com/dimoni26/claude-code-hooks"><img src="!/claude-speaking.svg" alt="Claude Code Hooks" width="40" height="40" align="center"></a> <a href="https://github.com/dimoni26/claude-code-hooks"><strong>claude-code-hooks</strong></a> · <a href="https://github.com/dimoni26/codex-cli-best-practice"><img src="!/codex-jumping.svg" alt="Codex CLI" width="40" height="40" align="center"></a> <a href="https://github.com/dimoni26/codex-cli-best-practice"><strong>codex-cli-best-practice</strong></a> · <a href="https://github_com/dimoni26/codex-cli-hooks"><img src="!/codex-speaking.svg" alt="Codex CLI Hooks" width="40" height="40" align="center"></a> <a href="https://github_com/dimoni26/codex-cli-hooks"><strong>codex-cli-hooks</strong></a>
-
-## Desarrollado por
-
-![Desarrollado por](!/tags/developed-by.svg)
-
-> | Flujo de Trabajo | Descripción |
-> |----------|-------------|
-> | /workflows:development-workflows | Actualiza la tabla de FLUJOS DE TRABAJO DE DESARROLLO y el informe de análisis cross-workflow investigando los 9 repositorios de flujos de trabajo en paralelo |
-> | /workflows:best-practice:workflow-concepts | Actualiza la sección de CONCEPTOS del README con las últimas características y conceptos de Claude Code |
-> | /workflows:best-practice:workflow-claude-settings | Rastrea los cambios en el informe de ajustes de Claude Code y encuentra qué necesita actualización |
-> | /workflows:best-practice:workflow-claude-subagents | Rastrea los cambios en el informe de subagentes de Claude Code y encuentra qué necesita actualización |
-> | /workflows:best-practice:workflow-claude-commands | Rastrea los cambios en el informe de comandos de Claude Code y encuentra qué necesita actualización |
-> | /workflows:best-practice:workflow-claude-skills | Rastrea los cambios en el informe de habilidades de Claude Code y encuentra qué necesita actualización |
-
-[![Claude para OSS](!/tags/claude-for-oss.svg)](https://claude.com/contact-sales/claude-for-oss)
-[![Embajador de la Comunidad Claude](!/tags/claude-community-ambassador.svg)](https://claude.com/community/ambassadors)
-[![Arquitecto Certificado de Claude](!/tags/claude-certified-architect.svg)](https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request)
-[![Academia Anthropic](!/tags/anthropic-academy.svg)](https://anthropic.skilljar.com/)
