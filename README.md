@@ -89,7 +89,6 @@ Todos los flujos de trabajo principales convergen en el mismo patrón arquitect�
 - [Bucle Ralph Wiggum](https://www.youtube.com/watch?v=eAtvoGlpeRU) [![Implementado](!/tags/implemented.svg)](https://github.com/dimoni26/novel-llm-26)
 - [Flujo de trabajo de Andrej Karpathy (Miembro Fundador, OpenAI)](https://x.com/karpathy/status/2015883857489522876)
 - [Flujo de trabajo de Peter Steinberger (Creador de OpenClaw)](https://youtu.be/8lF7HmQ_RgY?t=2582)
-- Flujo de trabajo de Boris Cherny (Creador de Claude Code) — [13 Consejos](tips/claude-boris-13-tips-03-jan-26.md) · [10 Consejos](tips/claude-boris-10-tips-01-feb-26.md) · [12 Consejos](tips/claude-boris-12-tips-12-feb-26.md) [![Boris](!/tags/boris-cherny.svg)](https://x.com/bcherny)
 
 <p align="center">
   <img src="!/claude-jumping.svg" alt="divisor de sección" width="60" height="50">
